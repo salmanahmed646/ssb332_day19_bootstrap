@@ -1,0 +1,125 @@
+/* Indicator Start */
+.custom-indicator [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+
+  transition: 0.4s;
+}
+.custom-indicator [data-bs-target]:hover {
+  background-color: #000000;
+}
+.custom-indicator {
+  right: 65%;
+  bottom: 40%;
+  display: block;
+  margin-right: 29%;
+  margin-left: 5%;
+}
+/* Indicator End */
+/*  */
+.custom-prev-icon,
+.custom-next-icon {
+  top: 80%;
+  width: 10%;
+}
+.custom-prev-icon {
+  left: 80%;
+}
+.prev-icon i {
+  font-size: 35px;
+  color: #ddd;
+  background: #333;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+
+  transition: 0.3s;
+}
+.prev-icon i:hover {
+  color: #333;
+  background-color: #ddd;
+}
+/*  */
+/*  */
+.carousel-text {
+  right: 20%;
+  left: 20%;
+  min-height: 150px;
+}
+.carousel-text h5 {
+  font-size: 35px;
+  font-weight: revert;
+  background-color: rgba(221, 221, 221, 0.4);
+  color: #000;
+  padding: 10px 30px;
+  display: inline;
+  border-radius: 7px;
+
+  transition: 0.3s;
+}
+.carousel-text h5:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.carousel-text p {
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(221, 221, 221, 0.5);
+  color: #000;
+  padding: 30px 20px;
+  border-radius: 7px;
+
+  transition: 0.4s;
+}
+.carousel-text p:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+/*  */
+.banner {
+  background: url(../images/run-2.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 150px;
+}
+.car-ind [data-bs-target] {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+.slider {
+  background-color: rgba(1, 1, 1, 0.5);
+  color: #fff;
+  padding: 50px 60px;
+  border-radius: 7px;
+}
+.slider h5 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.slider p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.slider button {
+  margin-bottom: 30px;
+}
+/* Form-Start */
+.user_email {
+  transition: 0.3s;
+}
+.user_email:focus {
+  border-color: #ddd;
+  box-shadow: none;
+  letter-spacing: 0.7px;
+}
+/* Form-End */
+/* Check&radio Start */
+.w_label {
+  display: inline-block;
+  width: 210px;
+}
+/* Check&radio End */
